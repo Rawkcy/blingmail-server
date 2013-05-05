@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <script src='https://cdn.firebase.com/v0/firebase.js'></script>
+    <script>
+      var db = new Firebase('https://test-test-test.firebaseio.com/user/{{ from_user }}/{{ email_id }}/approver/{{ approver }}');
+      db.update({approved: true});
+    </script>
+  </head>
+  <body>
+    <h1>From: {{ from_user }}</h1>
+    <h1>Email ID: {{ email_id }}</h1>
+    <h1>Approver: {{ approver }}</h1>
+  </body>
+</html>
