@@ -1,4 +1,16 @@
+Emailwing server to handle firebase pulling.
+
+HEROKU
+======
+
+http://emailwing.herokuapp.com
+
+
+LOCAL
+=====
+
 virtualenv dev
 source dev/bin/activate
 pip install -r requirements.txt
 python run.py
+
